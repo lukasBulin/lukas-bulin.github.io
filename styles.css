@@ -47,18 +47,18 @@
     margin-right: 0.5rem;
 }
 
-.navbar_menu {
+.navbar__menu {
     display: flex;
     align-items: center;
     list-style: none;
     text-align: center;
 }
 
-.navbar_item {
+.navbar__item {
     height: 80px;
 }
 
-.navbar_links {
+.navbar__links {
     color: #fff;
     display: flex;
     align-items: center;
@@ -68,7 +68,7 @@
     height: 100%;
 }
 
-.navbar_btn {
+.navbar__btn {
     display: flex;
     justify-content: center;
     align-items: center;
