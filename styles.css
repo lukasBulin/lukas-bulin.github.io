@@ -592,8 +592,36 @@
 }
 
 @media screen and (max-width: 480px) {
-    .education {
+    /* .education {
         height: 1400px;
+    } */
+
+    .education__content h1 {
+        width: 300px;
+    }
+
+    .education__SFU h2 {
+    
+    }
+
+    .education__SFU h4 {
+
+    }
+
+    .education__SFU p {
+
+    }
+
+    .education__Douglas h2 {
+
+    }
+    
+    .education__Douglas h4 {
+
+    }
+
+    .education__Douglas p {
+
     }
 }
 
