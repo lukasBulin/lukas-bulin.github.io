@@ -524,7 +524,7 @@
 }
 
 .education__SFU h2 {
-    font-size: 4rem;
+    font-size: 1.5rem;
     background-color: #ff8177;
     background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
     background-size: 100%;
@@ -534,15 +534,22 @@
     -moz-text-fill-color: transparent;
 }
 
+.education__SFU h4 {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+
 .education__SFU p {
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 700;
     color: #fff;
 }
 
 .education__Douglas h2 {
-    font-size: 4rem;
+    font-size: 1.5rem;
     background-color: #ff8177;
     background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
     background-size: 100%;
@@ -552,9 +559,16 @@
     -moz-text-fill-color: transparent;
 }
 
+.education__Douglas h4 {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+
 .education__Douglas p {
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 700;
     color: #fff;
 }
