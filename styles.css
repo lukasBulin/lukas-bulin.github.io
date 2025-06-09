@@ -208,7 +208,7 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 90vh;
+    height: 60vh;
     background-color: #141414;
     z-index: 1;
     width: 100%;
@@ -227,7 +227,7 @@
     -moz-text-fill-color: transparent;
 }
 
-.main__content h2 {
+/* .main__content h2 {
     font-size: 4rem;
     background-color: #ff8177;
     background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
@@ -236,7 +236,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-}
+} */
 
 .main__content p {
     margin-top: 1rem;
@@ -315,9 +315,9 @@
         margin-top: 2rem;
     }
 
-    .main__content h2 {
+    /* .main__content h2 {
         font-size: 3rem;
-    }
+    } */
 
     .main__content p {
         margin-top: 1rem;
@@ -331,9 +331,9 @@
         margin-top: 3rem;
     }
 
-    .main__content h2 {
+    /* .main__content h2 {
         font-size: 2rem;
-    }
+    } */
 
     .main__content p {
         margin-top: 2rem;
