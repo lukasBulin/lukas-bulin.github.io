@@ -294,7 +294,8 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #4837ff;
+    color: #fff;
+    /* background: #4837ff; */
     transition: all 0.35s;
     border-radius: 4px;
 }
@@ -306,17 +307,20 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #4837ff;
+    color: #fff;
+    /* background: #4837ff; */
     transition: all 0.35s;
     border-radius: 4px;
 }
 
 .main__btn:hover {
-    color: #fff;
+    background: #4837ff;
+    transition: all 0.3s ease;
 }
 
 .main2__btn:hover {
-    color: #fff;
+    background: #4837ff;
+    transition: all 0.3s ease;
 }
 
 .main__btn:hover:after {
@@ -383,6 +387,11 @@
     }
 
     .main__btn {
+        padding: 12px 36px;
+        margin: 2.5rem 0;
+    }
+
+    .main2__btn {
         padding: 12px 36px;
         margin: 2.5rem 0;
     }
