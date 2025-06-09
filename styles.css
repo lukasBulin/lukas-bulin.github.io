@@ -208,7 +208,7 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 90vh;
+    height: 60vh;
     background-color: #141414;
     z-index: 1;
     width: 100%;
@@ -227,7 +227,7 @@
     -moz-text-fill-color: transparent;
 }
 
-.main__content h2 {
+/* .main__content h2 {
     font-size: 4rem;
     background-color: #ff8177;
     background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
@@ -236,7 +236,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-}
+} */
 
 .main__content p {
     margin-top: 1rem;
@@ -259,12 +259,34 @@
     outline: none;
 }
 
+.main2__btn {
+    font-size: 1rem;
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+
 .main__btn a {
     position: relative;
     z-index: 2;
     color: #fff;
     text-decoration: none;
 }
+
+.main2__btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
 .main__btn:after {
     position: absolute;
     content: '';
@@ -272,16 +294,40 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #4837ff;
+    color: #fff;
+    /* background: #4837ff; */
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.main2__btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #fff;
+    /* background: #4837ff; */
     transition: all 0.35s;
     border-radius: 4px;
 }
 
 .main__btn:hover {
-    color: #fff;
+    background: #4837ff;
+    transition: all 0.3s ease;
+}
+
+.main2__btn:hover {
+    background: #4837ff;
+    transition: all 0.3s ease;
 }
 
 .main__btn:hover:after {
+    width: 100%;
+}
+
+.main2__btn:hover:after {
     width: 100%;
 }
 
@@ -315,9 +361,9 @@
         margin-top: 2rem;
     }
 
-    .main__content h2 {
+    /* .main__content h2 {
         font-size: 3rem;
-    }
+    } */
 
     .main__content p {
         margin-top: 1rem;
@@ -331,9 +377,9 @@
         margin-top: 3rem;
     }
 
-    .main__content h2 {
+    /* .main__content h2 {
         font-size: 2rem;
-    }
+    } */
 
     .main__content p {
         margin-top: 2rem;
@@ -344,6 +390,11 @@
         padding: 12px 36px;
         margin: 2.5rem 0;
     }
+
+    .main2__btn {
+        padding: 12px 36px;
+        margin: 2.5rem 0;
+    }
 }
 
 /* Personal Projects Section CSS */
@@ -351,7 +402,8 @@
     background: #141414;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
+    padding: 0 50px ;
     height: 100vh;
 }
 
