@@ -404,7 +404,7 @@
     flex-direction: column;
     align-items: right;
     padding: 0 50px ;
-    height: 100vh;
+    height: 70vh;
 }
 
 .projects h1 {
@@ -502,7 +502,7 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 60vh;
+    height: 80vh;
     background-color: #141414;
     z-index: 1;
     width: 100%;
@@ -571,6 +571,30 @@
     font-size: 1rem;
     font-weight: 700;
     color: #fff;
+}
+
+.education__img1--container {
+    text-align: left;
+}
+
+#education__img1 {
+    height: 50%;
+    width: 50%;
+}
+
+.education__img2--container {
+    text-align: left;
+}
+
+#education__img2 {
+    height: 50%;
+    width: 50%;
+}
+
+@media screen and (max-width: 480px) {
+    .education {
+        height: 1400px;
+    }
 }
 
 /* Footer CSS */
