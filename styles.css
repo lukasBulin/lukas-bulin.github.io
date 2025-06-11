@@ -5,6 +5,8 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+/*Navigation Bar CSS*/
+
 .navbar {
     background: #131313;
     height: 80px;
@@ -336,8 +338,8 @@
 }
 
 #main__img {
-    height: 80%;
-    width: 80%;
+    height: 50%;
+    width: 50%;
 }
 
 @media screen and (max-width: 768px) {
@@ -624,6 +626,88 @@
 
     }
 }
+
+/* Skills Section CSS */
+
+.skills {
+    background-color: #141414;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.skills__container {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #141414;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.skills__content h1 {
+    flex: 1;
+    color: #fff;
+}
+
+.skills__description p {
+    flex: 1;
+    color: #fff;
+}
+
+/* .skills {
+    background-color: #141414;
+}
+
+.skills__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 80vh;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.skills__content h1 {
+    background-color: #ff8177;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, 
+    #cf556c 78%, #b12a5b 100%);
+    background-size: 100%;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    padding: 0 0 0 700px;
+}
+
+.skills__description p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    padding: 0 0 0 700px;
+}
+
+.skills__img1--container {
+    text-align: left;
+}
+
+#skills__img1 {
+    height: 10%;
+    width: 10%;
+} */
 
 /* Footer CSS */
 .footer__container {
