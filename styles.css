@@ -633,7 +633,7 @@
     background-color: #141414;
 }
 
-img {
+.skills__img1 {
     width: 100%;
     max-width: 400px;
     object-fit: cover;
@@ -641,6 +641,7 @@ img {
 }
 
 .skills__container {
+    height: 50vh;
     padding: 0 15px;
     display: flex;
     flex-wrap: wrap;
