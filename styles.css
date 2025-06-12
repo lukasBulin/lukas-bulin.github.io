@@ -406,7 +406,7 @@
     flex-direction: column;
     align-items: right;
     padding: 0 50px ;
-    height: 70vh;
+    height: 350vh;
 }
 
 .projects h1 {
@@ -428,32 +428,127 @@
     flex-wrap: wrap;
 }
 
-.projects__card {
-    margin: 1rem;
-    height: 525px;
-    width: 400px;
+.projects__content h2 {
+    background-color: #ff8177;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, 
+    #cf556c 78%, #b12a5b 100%);
+    background-size: 100%;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    padding: 0 100px;
+}
+
+.projects__content p {
+    background-color: #ff8177;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, 
+    #cf556c 78%, #b12a5b 100%);
+    background-size: 100%;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    padding: 0 100px;
+}
+
+.projects__content ul {
+    background-color: #ff8177;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, 
+    #cf556c 78%, #b12a5b 100%);
+    background-size: 100%;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    padding: 0 100px;
+}
+
+.projects__content li {
+    list-style: '•';
+}
+
+.projects__btn {
+    font-size: 1rem;
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    padding: 20px 32px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+
+.projects__btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 ;
+}
+
+.projects__card1 {
+    margin: 10rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    height: 750px;
+    width: 1000px;
     border-radius: 4px;
     background-image: linear-gradient(to bottom,
     rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%),
-    url('/images/pic2.jpg');
+    url('/images/VREscapeRoom.gif');
     background-size: cover;
     position: relative;
     color: #fff;
 }
 
-.projects__card:nth-child(2) {
+.projects__card2 {
+    margin: 10rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    height: 750px;
+    width: 1000px;
+    border-radius: 4px;
     background-image: linear-gradient(to bottom,
     rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%),
-    url('/images/pic3.jpg');
+    url('/images/InfiniteRunner.gif');
+    background-size: cover;
+    position: relative;
+    color: #fff;
 }
 
-.projects h2 {
-    position: absolute;
-    top: 350px;
+.projects__card3 {
+    margin: 10rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    height: 750px;
+    width: 1000px;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom,
+    rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%),
+    url('/images/ArkanoidGame.gif');
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+/* .projects__container h2 {
+    position: relative;
+    top: 1px;
     left: 30px;
-}
+} */
 
-.projects__card p {
+/* .projects__card p {
     position: absolute;
     top: 400px;
     left: 30px;
@@ -467,13 +562,25 @@
     border-radius: 4px;
     background: #f77062;
     position: absolute;
-    top: 440px;
+    top: 40px;
     left: 30px;
     font-size: 1rem;
     cursor: pointer;
+} */
+
+.projects__card1:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
 }
 
-.projects__card:hover {
+.projects__card2:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.projects__card3:hover {
     transform: scale(1.075);
     transition: 0.2s ease-in;
     cursor: pointer;
