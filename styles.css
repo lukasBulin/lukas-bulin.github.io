@@ -406,7 +406,7 @@
     flex-direction: column;
     align-items: right;
     padding: 0 50px ;
-    height: 1000vh;
+    height: 500vh;
 }
 
 .projects h1 {
@@ -479,25 +479,34 @@
     padding: 0 ;
 }
 
-.projects__card {
+.projects__card1 {
     margin: 10rem;
     margin-left: 5rem;
     margin-top: 5rem;
-    height: 500px;
+    height: 750px;
     width: 1000px;
     border-radius: 4px;
     background-image: linear-gradient(to bottom,
     rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%),
-    url('/images/pic2.jpg');
+    url('/images/VREscapeRoom.gif');
     background-size: cover;
     position: relative;
     color: #fff;
 }
 
-.projects__card:nth-child(2) {
+.projects__card2 {
+    margin: 10rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    height: 750px;
+    width: 1000px;
+    border-radius: 4px;
     background-image: linear-gradient(to bottom,
     rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%),
-    url('/images/pic3.jpg');
+    url('/images/InfiniteRunner.gif');
+    background-size: cover;
+    position: relative;
+    color: #fff;
 }
 
 /* .projects__container h2 {
@@ -526,7 +535,13 @@
     cursor: pointer;
 } */
 
-.projects__card:hover {
+.projects__card1:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.projects__card2:hover {
     transform: scale(1.075);
     transition: 0.2s ease-in;
     cursor: pointer;
