@@ -506,7 +506,7 @@
     border-radius: 4px;
     background-image: linear-gradient(to bottom,
     rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%),
-    url('/images/VREscapeRoom.gif');
+    url('./images/VREscapeRoom.gif');
     background-size: cover;
     position: relative;
     color: #fff;
@@ -521,7 +521,7 @@
     border-radius: 4px;
     background-image: linear-gradient(to bottom,
     rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%),
-    url('/images/InfiniteRunner.gif');
+    url('./images/InfiniteRunner.gif');
     background-size: cover;
     position: relative;
     color: #fff;
@@ -536,7 +536,7 @@
     border-radius: 4px;
     background-image: linear-gradient(to bottom,
     rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%),
-    url('/images/ArkanoidGame.gif');
+    url('./images/ArkanoidGame.gif');
     background-size: cover;
     position: relative;
     color: #fff;
