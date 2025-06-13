@@ -292,7 +292,7 @@
     flex-direction: column;
     align-items: right;
     padding: 50px 100px ;
-    height: 350vh;
+    height: 295vh;
 }
 
 .projects h1 {
@@ -512,6 +512,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .projects {
+        height: 235vh;
+    }
     .projects__container {
         height: 90vh;
     }
@@ -550,6 +553,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .projects {
+        height: 175vh;
+    }
+
     .projects__container {
         height: 90vh;
     }
@@ -593,83 +600,74 @@
 
 /*Education CSS */
 .education {
-    background-color: #141414;
-}
-
-.education__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-self: center;
-    margin: 0 auto;
-    height: 80vh;
-    background-color: #141414;
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    padding: 0 50px;
+    background: rgba(0, 25, 148, 0.566);
+    height: 90vh;
+    padding: 0 0 0 100px;
 }
 
 .education__content h1{
-    background-color: #ff8177;
-    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, 
-    #cf556c 78%, #b12a5b 100%);
+    background-color: #ffffff;
     background-size: 100%;
-    margin-bottom: 5rem;
-    font-size: 2.5rem;
+    margin-bottom: 25px;
+    font-size: 50px;
+    font-weight: 300;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 3px;
 }
 
 .education__SFU h2 {
-    font-size: 1.5rem;
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-color: white;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 300;
 }
 
 .education__SFU h4 {
     margin-top: 1rem;
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 300;
     color: #fff;
 }
 
 .education__SFU p {
     margin-top: 1rem;
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 0;
     color: #fff;
+    margin-bottom: 20px;
 }
 
 .education__Douglas h2 {
-    font-size: 1.5rem;
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-color: white;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 300;
 }
 
 .education__Douglas h4 {
     margin-top: 1rem;
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 300;
     color: #fff;
 }
 
 .education__Douglas p {
     margin-top: 1rem;
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 0;
     color: #fff;
 }
 
@@ -687,41 +685,16 @@
 }
 
 #education__img2 {
-    height: 50%;
-    width: 50%;
+    height: 30%;
+    width: 30%;
 }
 
 @media screen and (max-width: 480px) {
-    /* .education {
-        height: 1400px;
-    } */
+    .education {
 
+    }
     .education__content h1 {
         width: 300px;
-    }
-
-    .education__SFU h2 {
-    
-    }
-
-    .education__SFU h4 {
-
-    }
-
-    .education__SFU p {
-
-    }
-
-    .education__Douglas h2 {
-
-    }
-    
-    .education__Douglas h4 {
-
-    }
-
-    .education__Douglas p {
-
     }
 }
 
