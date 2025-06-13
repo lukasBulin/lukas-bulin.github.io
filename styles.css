@@ -595,7 +595,19 @@
         font-size: 1.2rem;
     }
 
-    .projects__card {
+    .projects__content h2 {
+        font-size: 1.2rem;
+    }
+
+    .projects__card1 {
+        width: 300px;
+    }
+
+    .projects__card2 {
+        width: 300px;
+    }
+
+    .projects__card3 {
         width: 300px;
     }
 }
