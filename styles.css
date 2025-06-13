@@ -445,51 +445,149 @@
     color: #fff;
 }
 
+.projects__card1::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 750px;
+    height: 2px;
+    background: white;
+    transition: 1.5s;
+    margin-top: 20px;
+}
+
+.projects__card1:hover::before {
+    width: 100%;
+}
+
 .projects__card1:hover {
     transform: scale(1.075);
-    transition: 0.2s ease-in;
+    transition: 1s ease-in;
     cursor: pointer;
+}
+
+.projects__card2::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 750px;
+    height: 2px;
+    background: white;
+    transition: 1.5s;
+    margin-top: 20px;
+}
+
+.projects__card2:hover::before {
+    width: 100%;
 }
 
 .projects__card2:hover {
     transform: scale(1.075);
-    transition: 0.2s ease-in;
+    transition: 1s ease-in;
     cursor: pointer;
+}
+
+.projects__card3::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 750px;
+    height: 2px;
+    background: white;
+    transition: 1.5s;
+    margin-top: 20px;
+}
+
+.projects__card3:hover::before {
+    width: 100%;
 }
 
 .projects__card3:hover {
     transform: scale(1.075);
-    transition: 0.2s ease-in;
+    transition: 1s ease-in;
     cursor: pointer;
 }
 
-@media screen and (max-width: 1150px) {
-
-}
-
-@media screen and (max-width: 480px) {
-    .projects {
-        height: 1400px;
+@media screen and (max-width: 1200px) {
+    .projects__container {
+        height: 90vh;
     }
 
     .projects h1 {
-        font-size: 1.2rem;
-    }
-
-    .projects__content h2 {
-        font-size: 1.2rem;
+        font-size: 40px;
+        margin-top: 30px;
     }
 
     .projects__card1 {
-        width: 300px;
+        height: 500px;
+        width: 750px;
+    }
+
+    .projects__card1::before {
+        width: 500px;
     }
 
     .projects__card2 {
-        width: 300px;
+        height: 500px;
+        width: 750px;
+    }
+
+    .projects__card2::before {
+        width: 500px;
     }
 
     .projects__card3 {
-        width: 300px;
+        height: 500px;
+        width: 750px;
+    }
+
+    .projects__card3::before {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .projects__container {
+        height: 90vh;
+    }
+
+    .projects h1 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .projects__content h2 {
+        font-size: 25px;
+    }
+
+    .projects__card1 {
+        height: 250px;
+        width: 375px;
+    }
+
+    .projects__card1::before {
+        width: 250px;
+    }
+
+    .projects__card2 {
+        height: 250px;
+        width: 375px;
+    }
+
+    .projects__card2::before {
+        width: 250px;
+    }
+
+    .projects__card3 {
+        height: 250px;
+        width: 375px;
+    }
+
+    .projects__card3::before {
+        width: 250px;
     }
 }
 
