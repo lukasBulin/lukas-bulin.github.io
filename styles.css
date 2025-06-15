@@ -95,21 +95,16 @@
 
 /* Hero Section CSS */
 
-.main {
-    background: rgba(0, 25, 151, 0.345);
-}
-
 .main__container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); /*1fr 1fr */
     align-items: center;
     justify-self: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     height: 60vh;
-    background: rgba(0, 25, 151, 0.345);
+    background: rgba(0, 24, 146, 0.555);
     z-index: 1;
-    width: 100%;
-    max-width: 2700px;
+    width: auto;
     padding: 0 100px;
 }
 
@@ -137,7 +132,7 @@
     cursor: pointer;
     position: relative;
     transition: all 0.35s;
-    outline: none;
+    outline: 3px solid #ffffff;
     margin-right: 50px;
 }
 
@@ -152,7 +147,7 @@
     cursor: pointer;
     position: relative;
     transition: all 0.35s;
-    outline: none;
+    outline: 3px solid #ffffff;
 }
 
 .main__btn a {
@@ -219,8 +214,9 @@
 
 #main__img {
     height: 80%;
-    width: 80%;
-    border-radius: 7000px;
+    width: 100%;
+    border: 8px solid #ffffff;
+    border-radius: 1000px;
 }
 
 @media screen and (max-width: 1150px) {
@@ -229,14 +225,15 @@
         grid-template-columns: auto;
         align-items: center;
         justify-self: center;
-        width: 100%;
-        margin: 0 auto;
-        height: 90vh;
+        width: auto;
+        margin: auto;
+        height: auto;
     }
 
     .main__content {
-        text-align: center;
-        margin-bottom: 4rem;
+        text-align: left;
+        margin-bottom: 30%;
+        margin-top: 30%;
     }
 
     .main__content h1 {
@@ -251,32 +248,6 @@
     .main__content p {
         margin-top: 1rem;
         font-size: 1.5rem;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .main__content h1 {
-        font-size: 2rem;
-        margin-top: 3rem;
-    }
-
-    .main__content h2 {
-        font-size: 2rem;
-    }
-
-    .main__content p {
-        margin-top: 2rem;
-        font-size: 1.5rem;
-    }
-
-    .main__btn {
-        padding: 12px 36px;
-        margin: 2.5rem 0;
-    }
-
-    .main2__btn {
-        padding: 12px 36px;
-        margin: 2.5rem 0;
     }
 }
 
