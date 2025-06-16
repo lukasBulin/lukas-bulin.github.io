@@ -253,10 +253,9 @@
 
 /* Personal Projects Section CSS */
 /* container 1 */
-
 .projects__container1 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
     align-items: center;
     justify-self: center;
     height: auto;
@@ -357,76 +356,11 @@ video {
     width: 80%;
     margin-top: 5%;
     margin-left: 6%;
+    margin-bottom: 10%;
 }
-
-/* .projects__card1::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 750px;
-    height: 2px;
-    background: white;
-    transition: 1.5s;
-    margin-top: 20px;
-}
-
-.projects__card1:hover::before {
-    width: 100%;
-}
-
-.projects__card1:hover {
-    transform: scale(1.075);
-    transition: 1s ease-in;
-    cursor: pointer;
-}
-
-.projects__card2::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 750px;
-    height: 2px;
-    background: white;
-    transition: 1.5s;
-    margin-top: 20px;
-}
-
-.projects__card2:hover::before {
-    width: 100%;
-}
-
-.projects__card2:hover {
-    transform: scale(1.075);
-    transition: 1s ease-in;
-    cursor: pointer;
-}
-
-.projects__card3::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 750px;
-    height: 2px;
-    background: white;
-    transition: 1.5s;
-    margin-top: 20px;
-}
-
-.projects__card3:hover::before {
-    width: 100%;
-}
-
-.projects__card3:hover {
-    transform: scale(1.075);
-    transition: 1s ease-in;
-    cursor: pointer;
-} */
 
 @media screen and (max-width: 1150px) {
-    .projects__container {
+    .projects__container1 {
         display: grid;
         grid-template-columns: auto;
         align-items: center;
@@ -436,49 +370,20 @@ video {
         height: auto;
     }
 
-    .projects__container {
+    .projects__VR {
         text-align: left;
-        margin-bottom: 30%;
-        margin-top: 30%;
     }
 
-    .projects__container h1 {
+    .projects__container1 h1 {
         font-size: 40px;
         margin-top: 30px;
     }
-
-    /* .projects__card1 {
-        height: 50%;
-        width: 50%;
-    }
-
-    .projects__card1::before {
-        width: 500px;
-    }
-
-    .projects__card2 {
-        height: 500px;
-        width: 750px;
-    }
-
-    .projects__card2::before {
-        width: 500px;
-    }
-
-    .projects__card3 {
-        height: 500px;
-        width: 750px;
-    }
-
-    .projects__card3::before {
-        width: 500px;
-    } */
 }
 
 /*container 2 */
 .projects__container2 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     align-items: center;
     justify-self: center;
     height: auto;
@@ -571,75 +476,8 @@ video {
     margin-top: 5%;
     margin-left: 6%;
 }
-
-/* .projects__card1::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 750px;
-    height: 2px;
-    background: white;
-    transition: 1.5s;
-    margin-top: 20px;
-}
-
-.projects__card1:hover::before {
-    width: 100%;
-}
-
-.projects__card1:hover {
-    transform: scale(1.075);
-    transition: 1s ease-in;
-    cursor: pointer;
-}
-
-.projects__card2::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 750px;
-    height: 2px;
-    background: white;
-    transition: 1.5s;
-    margin-top: 20px;
-}
-
-.projects__card2:hover::before {
-    width: 100%;
-}
-
-.projects__card2:hover {
-    transform: scale(1.075);
-    transition: 1s ease-in;
-    cursor: pointer;
-}
-
-.projects__card3::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 750px;
-    height: 2px;
-    background: white;
-    transition: 1.5s;
-    margin-top: 20px;
-}
-
-.projects__card3:hover::before {
-    width: 100%;
-}
-
-.projects__card3:hover {
-    transform: scale(1.075);
-    transition: 1s ease-in;
-    cursor: pointer;
-} */
-
 @media screen and (max-width: 1150px) {
-    .projects__container {
+    .projects__container2 {
         display: grid;
         grid-template-columns: auto;
         align-items: center;
@@ -649,46 +487,124 @@ video {
         height: auto;
     }
 
-    .projects__container {
+    .projects__IR {
         text-align: left;
-        margin-bottom: 30%;
-        margin-top: 30%;
     }
-
-    .projects__container h1 {
-        font-size: 40px;
-        margin-top: 30px;
-    }
-
-    /* .projects__card1 {
-        height: 50%;
-        width: 50%;
-    }
-
-    .projects__card1::before {
-        width: 500px;
-    }
-
-    .projects__card2 {
-        height: 500px;
-        width: 750px;
-    }
-
-    .projects__card2::before {
-        width: 500px;
-    }
-
-    .projects__card3 {
-        height: 500px;
-        width: 750px;
-    }
-
-    .projects__card3::before {
-        width: 500px;
-    } */
 }
 
 /* container 3 */
+.projects__container3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    align-items: center;
+    justify-self: center;
+    height: auto;
+    width: 100%;
+    background: rgba(0, 24, 146, 0.555);
+    z-index: 1;
+    padding: 0 100px;
+}
+
+.projects__container3 h2 {
+    font-size: 30px;
+    font-weight: 8000;
+    color: white;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.projects__container3 p {
+    margin-bottom: 1rem;
+    font-size: 15px;
+    color: white;
+    margin-top: 2.5%;
+    margin-left: 5%;
+}
+
+.projects__container3 ul {
+    font-size: 15px;
+    color: silver;
+    margin-left: 7.5%;
+}
+
+.projects__container3 li {
+    list-style: '•';
+}
+
+.projects__btn {
+    font-size: 1rem;
+    background-color: #362d9d;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 4%;
+    cursor: pointer;
+    position: right;
+    transition: all 0.35s;
+    outline: 3px solid #ffffff;
+    margin-left: 5%;
+}
+
+.projects__btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.projects__btn::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #fff;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.projects__btn:hover {
+    box-shadow: 0 0 10px #ffffff, 0 0 20px #1f00cc;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}
+
+.projects__btn:hover:after {
+    width: 100%;
+}
+
+.mp4__container3 {
+    text-align: center;
+}
+
+video {
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 22, 133, 0);
+    height: auto;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-bottom: 10%;
+}
+
+@media screen and (max-width: 1150px) {
+    .projects__container3 {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: auto;
+        margin: auto;
+        height: auto;
+    }
+
+    .projects__AG {
+        text-align: left;
+    }
+}
 
 
 /*Education CSS */
