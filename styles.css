@@ -622,6 +622,7 @@ video {
     z-index: 1;
     width: 100%;
     padding: 0 100px;
+    padding-bottom: 150px;
 }
 
 .education__content h1 {
@@ -635,42 +636,35 @@ video {
 }
 
 .education__content h2 {
+    padding-top: 5px;
     font-size: 30px;
     font-weight: 300;
     color: white;
 }
 
 .education__content h4 {
-    margin-top: 1rem;
+    padding-top: 5px;
     font-size: 20px;
     font-weight: 300;
     color: #fff;
 }
 
 .education__content p {
-    margin-top: 1rem;
+    margin-top: 5px;
     font-size: 15px;
     font-weight: 0;
-    color: #fff;
-    margin-bottom: 20px;
+    color: #ffffff;
 }
 
-.education__img1--container {
+.education__img {
     text-align: left;
 }
 
-#education__img1 {
-    height: 50%;
-    width: 50%;
-}
-
-.education__img2--container {
-    text-align: left;
-}
-
-#education__img2 {
-    height: 30%;
-    width: 30%;
+#education__img {
+    height: 20%;
+    width: 20%;
+    border: 4px solid #000000;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 480px) {
