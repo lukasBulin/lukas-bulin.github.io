@@ -5,6 +5,10 @@
     font-family: "Arial";
 }
 
+hr {
+    height: 2px;
+}
+
 /*Navigation Bar CSS*/
 
 .header {
