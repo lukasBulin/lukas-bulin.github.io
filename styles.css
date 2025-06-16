@@ -608,22 +608,21 @@ video {
 
 
 /*Education CSS */
-.education {
-    background: rgba(0, 25, 148, 0.566);
-    height: 100vh;
-    padding: 0 0 0 100px;
-}
 
 .education__content h1{
-    background-color: #ffffff;
-    background-size: 100%;
+    background: rgba(0, 25, 148, 0.566);
     margin-bottom: 25px;
     font-size: 50px;
     font-weight: 300;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 3px;
+}
+
+.education__content h1 {
+    font-size: 55px;
+    font-weight: 500;
+    color: white;
     text-decoration: underline;
     text-decoration-color: white;
     text-decoration-thickness: 3px;
