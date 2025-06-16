@@ -126,6 +126,10 @@ hr {
     color: #fff;
 }
 
+.iconsM a {
+    text-decoration: none;
+}
+
 .main__btn {
     font-size: 1rem;
     background-color: #362d9d;
@@ -788,3 +792,8 @@ img {
 .fa-solid.fa-envelope.fa-3x {
     color: rgb(246, 62, 62);
 }
+
+.iconsC a {
+    text-decoration: none;
+}
+
