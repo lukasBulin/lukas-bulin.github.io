@@ -710,34 +710,33 @@ video {
 
 /* Skills Section CSS */
 
-.skills {
-    background: rgba(0, 25, 148, 0.566);
-    height: 80vh;   
-}
-
-img {
-    width: 100%;
-    max-width: 500px;
-    object-fit: cover;
-    vertical-align: middle;
-}
-
-#tech__img {
-    margin-top: 10px;
-    height: 70px;
-    width: 70px;
-    background-color: #717171;
-}
-
 .skills__container {
     padding: 0 15px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background: rgba(0, 22, 133, 0);
+    background: rgba(0, 25, 148, 0.566);
     justify-content: space-around;
-    gap: 5rem;
-    margin-left: 70px;
+    width: auto;
+    height: auto;
+    padding-left: 100px;
+}
+
+img {
+    width: 100%;
+    max-width: 700px;
+    object-fit: cover;
+    vertical-align: middle;
+    border: 5px solid #000000;
+    border-radius: 100px;
+}
+
+#tech__img {
+    height: 70px;
+    width: 70px;
+    background-color: #717171;
+    border: 3px solid #000000;
+    border-radius: 30px;
 }
 
 .tech__img p {
@@ -753,13 +752,15 @@ img {
     text-decoration: underline;
     text-decoration-color: white;
     text-decoration-thickness: 3px;
+    padding-top: 50px;
 }
 
 .skills__description p {
-    margin-top: 20px;
+    padding-top: 10px;
     font-size: 20px;
     font-weight: 0;
     color: #fff;
+    padding-bottom: 10px;
 }
 
 /* Contact Me CSS */
