@@ -144,8 +144,12 @@ hr {
 
     .fa-solid.fa-envelope.fa-3x {
         color: rgb(203, 51, 51);
+        padding-right: 10px;
     }
 
+    .fa-brands.fa-youtube.fa-3x {
+        color: #ff0000;
+    }
 }
 
 .iconsM a {
@@ -814,6 +818,11 @@ img {
 
     .fa-solid.fa-envelope.fa-3x {
         color: rgb(203, 51, 51);
+        padding-right: 15px;
+    }
+
+    .fa-brands.fa-youtube.fa-3x {
+        color: #ff0000;
     }
 }
 
