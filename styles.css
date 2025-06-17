@@ -350,6 +350,7 @@ hr {
     transition: all 0.35s;
     outline: 3px solid #ffffff;
     margin-left: 5%;
+    text-decoration: none;
 }
 
 .projects__btn a {
